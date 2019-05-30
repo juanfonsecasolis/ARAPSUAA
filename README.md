@@ -7,7 +7,7 @@ Juan Manuel Fonseca-Solís<sup>1,2</sup>
 <sup>1</sup> Electronics School ([IE](http://www.ie.tec.ac.cr)) at [TEC](http://www.tec.ac.cr).  
 <sup>2</sup> Research Center in Information and Communication Technologies ([CITIC](http://www.citic.ucr.ac.cr/)) at [UCR](https://www.ucr.ac.cr/).  
 
-![](https://tecdigital.tec.ac.cr/servicios/capacitacion/ayuda-autenticacion/recursos/imagenes/tec.png)
+![](./logo-tec.png)
 
 #### Contact
 [Juan Fonseca](mailto:juanma2268[at]gmail[dot]com)  
