@@ -80,7 +80,9 @@ Dependencies
 * [Numpy](http://www.numpy.org/), [Scipy](http://www.scipy.org/), and [Peakutils](https://pypi.org/project/PeakUtils/) for signal processing.
 * [Pyaudio](https://pypi.org/project/PyAudio/) for audio processing.
 * [Matplotlib](http://matplotlib.org) for plotting the results.
-* [Oct2py](https://pypi.org/project/oct2py/) and [Octave signal package](https://octave.sourceforge.io/signal/) for running Camacho's TS2Means, plotting the audio filters, and visualize the score matrices.
+* [Oct2py](https://pypi.org/project/oct2py/) and [Octave signal package](https://octave.sourceforge.io/signal/) for running TS2Means, plotting the audio filters, and visualize the score matrices.
+* [TS2Means, w2means](http://www.cise.ufl.edu/~acamacho/publications)
+    * Camacho, A., Detection of Pitched/Unpitched Sound Using Pitch Strength Clustering, Proceedings of the Ninth International Conference on Music Information Retrieval, pp. 533-537, Philadelphia, September 2008.
 
 The easiest way to set up a proper computing environment is first to download and install Python distributions from [Anaconda](https://store.continuum.io/cshop/anaconda/). Alternatively, run `./installDependencies.sh` 
 
