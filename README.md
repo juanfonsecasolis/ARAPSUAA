@@ -113,7 +113,7 @@ Citation
 ---
 You can cite this work by using the following Bibtex entry:
 ```
-@mastersthesis{mastersthesis,
+@mastersthesis{Fonseca2018,
   author       = {Juan M. Fonseca-Solís}, 
   title        = {Reconocimiento automático de señales peatonales accesibles usando un enfoque adaptativo},
   school       = {Escuela de Electrónica},
