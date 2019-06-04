@@ -109,6 +109,21 @@ System tested
     python-matplotlib-data/bionic,bionic,now 2.1.1-2ubuntu3 all 
     python-pyaudio/bionic,now 0.2.11-1build2 amd64 
 
+Citation
+---
+You can cite this work by using the following Bibtex entry:
+```
+@mastersthesis{mastersthesis,
+  author       = {Juan M. Fonseca-Solís}, 
+  title        = {Reconocimiento automático de señales peatonales accesibles usando un enfoque adaptativo},
+  school       = {Escuela de Electrónica},
+  year         = 2018,
+  address      = {Cartago, Costa Rica},
+  month        = 4,
+  url          = {https://repositoriotec.tec.ac.cr/handle/2238/10642}
+}
+```
+
 License
 ---
 Copyright (c) 2018, Juan M. Fonseca-Solís  
