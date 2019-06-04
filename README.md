@@ -120,7 +120,7 @@ You can cite this work by using the following Bibtex entry:
   year         = 2018,
   address      = {Cartago, Costa Rica},
   month        = 4,
-  url          = {https://repositoriotec.tec.ac.cr/handle/2238/10642}
+  url          = {http://hdl.handle.net/2238/10642}
 }
 ```
 
