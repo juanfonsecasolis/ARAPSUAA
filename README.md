@@ -35,7 +35,7 @@ This repository contains all the code to reproduce the results of the thesis [*R
  
 Recreate the results
 ---
-NOTE: the algorithm implementation works by default with `python 2.7`. For data pre-processing, we have to use libraries such as `numpy`, `scipy`, `pyaudio`, `oc2python`, and `peakutils`. 
+The algorithm implementation works by default with `python 2.7`. For data pre-processing, we have to use libraries such as `numpy`, `scipy`, `pyaudio`, `oc2python`, and `peakutils`. 
 
 Also, make sure that the recordings folder is named `grabaciones-curadas`, and that it is placed at the same level of this repository. 
 
