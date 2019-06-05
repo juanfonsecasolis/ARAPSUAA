@@ -21,9 +21,9 @@ Abstract
 
 **Method**. An algorithm for the recognition of accessible pedestrian signals is presented. It consists in a three-harmonics musical recognition kernel design with a decay proportional to 1/k^2, two algorithms for the dynamic estimation of the tone threshold, that vary according to the signal-to-noise ratio (TS2Means and the leaky integrator), and the Mahalanobis distance with covariance matrices modeled according to the APS musical contours for noise robustness. 
 
-**Results.** The best detection rates reached in this work were 93% precision, 89% specificity, 92% recall, 92% F-score, and 80% Matthew's correlation coefficient. So we reach an improvement of +12% in recall, meaning that the number of true positives increased, while keeping almost constant the number of false positives &mdash;important for user's safety&mdash;. Also, the Mahalanobis distance reached acceptable metrics, confirming the identification of noisy patterns using this approach is possible.
+**Results.** The best detection rates reached in this work were 93% precision, 89% specificity, 92% recall, 92% F-score, and 80% Matthew's correlation coefficient. So we reach an improvement of +12% in recall, meaning that the number of true positives increased, while keeping almost constant the number of false positives &mdash;important for user's safety&mdash;. Also, the covariance matrices reached acceptable metrics, confirming the identification of noisy patterns using this approach is possible.
 
-**Future work.** The score matrices (another name for the 2D curve of error) were constructed based on a fixed exponential distribution of the alpha and beta values, it would be beneficial to apply a genetic algorithm approach to get an optimized combination of parameters. Also, other types of sounds besides APS could be processed using the Mahalanobis distance.
+**Future work.** The score matrices (another name for the 2D curve of error) were constructed based on a fixed exponential distribution of the alpha and beta values, it would be beneficial to apply a genetic algorithm approach to get an optimized combination of parameters. Also, other types of sounds besides APS could be processed using the covariance matrices.
 
 Package Description
 ---
