@@ -17,11 +17,11 @@ San Pedro de Montes de Oca
 
 Abstract
 ---
-**Context.** The automatic detection of accessible pedestrian signals (APS), a type of sound emitted by pedestrian traffic lights to enable passage at pedestrian crossings, has made easier the recognition of other audible tones, such as train horns, ambulance sirens, and police patrol alarms, among others. So far, previous authors have managed to recognize APSs with partial success, since the exposed designs have presented suboptimal musical recognition kernels, fixed tone thresholds unable to adapt to the changing level of street noise and separate processing of continuous and discontinuous musical contours. 
+**Context.** The automatic detection of accessible pedestrian signals (APS), a type of sound emitted by pedestrian traffic lights to enable passage at pedestrian crossings, has made easier the recognition of other audible tones, such as train horns, ambulance sirens, and police patrol alarms, among others. So far, previous authors have managed to recognize APSs with partial success, since the exposed designs have presented suboptimal musical recognition kernels, fixed tone thresholds unable to adapt to the changing level of street noise and separate processing of continuous and discontinuous musical contours. The best detection rates reached in old works were 91% precision, 90% specificity, 80% recall, and 83% F-score.
 
 **Method**. An algorithm for the recognition of accessible pedestrian signals is presented. We present an algorithm that uses a three-harmonics musical recognition kernel design with a decay proportional to 1/k^2, two algorithms for the dynamic estimation of the tone threshold, that vary according to the signal-to-noise ratio (TS2Means and the leaky integrator), and the Mahalanobis distance with covariance matrices modeled according to the APS musical contours for noise robustness. 
 
-**Results.** The best detection rates reached were 93% precision, 89% specificity, 92% recall, 92% F-score, and 80% Matthew's correlation coefficient.
+**Results.** The best detection rates reached in this work were 93% precision, 89% specificity, 92% recall, 92% F-score, and 80% Matthew's correlation coefficient. The major improvement was a 12% in recall, meaning that the number of true positives increased, while keeping almost constant the number of false positives (which are important for a critical-mission system).
 
 Package Description
 ---
@@ -72,7 +72,7 @@ A total of 79 recordings were collected from 11 different Novax DS100 units in t
 
 The recordings were acquired using three smartphones of medium-gamma (Samsung Galaxy Ace S5830, Samsung Galaxy S Duos S7562, LG G2 mini D618), employing a sampling rate of 44.1 kHz, and a quantization of 32 bits. The audio was recorded either during the morning when less traffic was present in streets, as well as after midday when roads were more populated. The weather conditions were mostly sunny and cloudly, the last one with the presence of light rain. The duration of the recordings ranged from 13 s to 35 s, depending on the activity period of the Novax units, and the signal-to-noise ratio (SNR) corresponded to 1.1 dB (Novax units were designed to maintain an SPL level of +5dB above the ambient noise, with a limit on 90 dB). The recordings were downsampled to 22.05 kHz.
 
-**Acknowledges:** recordings taken from Samsung devices were provided by Mario Monge and Sharon Bejarano in 2013. They were the first in researcher APS on Costa Rica.  
+**Acknowledges:** recordings taken from Samsung devices were provided by Mario Monge and Sharon Bejarano in 2013.
 
 Dependencies
 ---
