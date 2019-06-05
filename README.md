@@ -29,8 +29,9 @@ Package Description
 ---
 This repository contains all the code to reproduce the results of the thesis [*Recognition of accessible pedestrian signals using an adaptive approach*](http://hdl.handle.net/2238/10642). It contains a Python implementation of the proposed algorithm, including the elaboration of:
 
-1. N-th harmonics prime and non-prime music kernels, and the logic needed to create pitch contour signals from real recordings in .wav format.
-2. Alert signals using the APS templates by the following distances: Euclidean, the proportion of tones (Ruiz approach), Mahalanobis; and filtering techniques: fixed threshold, TS2Means, leaky integrator.
+1. N-th harmonics prime and non-prime music kernels
+1. Logic needed to create pitch contour signals from real recordings in .wav format.
+2. Alert signals using the APS templates by the three type of distances (Euclidean, the proportion of tones, Mahalanobis) and two types of filtering techniques (fixed threshold, TS2Means, leaky integrator).
  
 Recreate the results
 ---
@@ -54,7 +55,7 @@ Tables 4.7-4.12, 4.20-4.22, 4.25-4.27, 4.30-4.32, 4.35-4.37, 4.40-4.42
     
     python2.7 Test/TestBruteForce.py
     
-*Disclaimer:* this test is fairly heavy to run in terms of memory usage. A machine with at least 8GB of RAM is recommended, and depending of the scenario the test can take 20 to 60 min aproximately.
+*Disclaimer:* this test is fairly heavy to run in terms of memory usage. A machine with at least 12GB of RAM is recommended, and depending of the scenario the test can take 20 to 60 min aproximately.
 
 Figures 2.2, 2.3, 2.12, 2.11, 4.5-4.10, 1.18a, 1.19a, 2.6, 2.14, 2.15
     
