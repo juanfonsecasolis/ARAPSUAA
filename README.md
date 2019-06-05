@@ -23,7 +23,7 @@ Abstract
 
 **Results.** The best detection rates reached in this work were 93% precision, 89% specificity, 92% recall, 92% F-score, and 80% Matthew's correlation coefficient. So we found an improvement of +12% in recall while keeping almost constant precision and specificity, this means that the number of true positives increased and the number of false positives &mdash;important for user's safety&mdash; remained bounded. Also, the covariance matrices reached acceptable metrics, confirming the posibility to tolerate noise in sound patterns.
 
-**Future work.** The score matrices (another name for the 2D curve of error) were constructed based on a fixed exponential distribution of the alpha and beta values, it would be beneficial to apply a genetic algorithm approach to get an optimized combination of parameters. Also, other types of sounds besides APS could be processed using the covariance matrices.
+**Future work.** The score matrices (another name for the error surface) were constructed based on a fixed exponential distribution of the alpha and beta values, it would be beneficial to apply a genetic algorithm approach to get an optimized combination of parameters. Also, other types of sounds besides APS could be processed using the covariance matrices.
 
 Package Description
 ---
