@@ -21,7 +21,9 @@ Abstract
 
 **Method**. An algorithm for the recognition of accessible pedestrian signals is presented. It consists in a three-harmonics musical recognition kernel design with a decay proportional to 1/k^2, two algorithms for the dynamic estimation of the tone threshold, that vary according to the signal-to-noise ratio (TS2Means and the leaky integrator), and the Mahalanobis distance with covariance matrices modeled according to the APS musical contours for noise robustness. 
 
-**Results.** The best detection rates reached in this work were 93% precision, 89% specificity, 92% recall, 92% F-score, and 80% Matthew's correlation coefficient. The major contribution of this study was an improvement of +12% in recall, meaning that the number of true positives increased, while keeping almost constant the number of false positives &mdash;important for user's safety&mdash;. Also, a new way to identify noisy patterns was introduced, which leaves open the possibility to process new types of sounds.
+**Results.** The best detection rates reached in this work were 93% precision, 89% specificity, 92% recall, 92% F-score, and 80% Matthew's correlation coefficient. So we reach an improvement of +12% in recall, meaning that the number of true positives increased, while keeping almost constant the number of false positives &mdash;important for user's safety&mdash;. Also, the Mahalanobis distance reached acceptable metrics, confirming the identification of noisy patterns using this approach is possible.
+
+**Future work.** The score matrices (another name for the 2D curve of error) were constructed based on a fixed exponential distribution of the alpha and beta values, it would be beneficial to apply a genetic algorithm approach to get an optimized combination of parameters. Also, other types of sounds besides APS could be processed using the Mahalanobis distance.
 
 Package Description
 ---
@@ -51,6 +53,8 @@ Figures 4.11, 4.14-4.21, and tables 4.4, 4.5, 4.13, 4.18, 4.23, 4.28, 4.33, 4.38
 Tables 4.7-4.12, 4.20-4.22, 4.25-4.27, 4.30-4.32, 4.35-4.37, 4.40-4.42
     
     python2.7 Test/TestBruteForce.py
+    
+*Disclaimer:* this test is fairly heavy to run in terms of memory usage. A machine with at least 8GB of RAM is recommended, and depending of the scenario the test can take 20 to 60 min aproximately.
 
 Figures 2.2, 2.3, 2.12, 2.11, 4.5-4.10, 1.18a, 1.19a, 2.6, 2.14, 2.15
     
