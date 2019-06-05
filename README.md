@@ -31,7 +31,7 @@ This repository contains all the code to reproduce the results of the thesis [*R
 
 1. N-th harmonics prime and non-prime music kernels
 1. Logic needed to create pitch contour signals from real recordings in .wav format.
-2. Alert signals using the APS templates by the three type of distances (Euclidean, the proportion of tones, Mahalanobis) and two types of filtering techniques (fixed threshold, TS2Means, leaky integrator).
+2. Alert signals using the APS templates by three types of distances (Euclidean, the proportion of tones, Mahalanobis) and three types of filtering techniques (fixed threshold, TS2Means, leaky integrator).
  
 Recreate the results
 ---
