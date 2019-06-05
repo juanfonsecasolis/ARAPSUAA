@@ -21,7 +21,7 @@ Abstract
 
 **Method**. An algorithm for the recognition of accessible pedestrian signals is presented. It consists in a three-harmonics musical recognition kernel design with a decay proportional to 1/k^2, two algorithms for the dynamic estimation of the tone threshold, that vary according to the signal-to-noise ratio (TS2Means and the leaky integrator), and the Mahalanobis distance with covariance matrices modeled according to the APS musical contours for noise robustness. 
 
-**Results.** The best detection rates reached in this work were 93% precision, 89% specificity, 92% recall, 92% F-score, and 80% Matthew's correlation coefficient. So we found an improvement of +12% in recall while keeping almost constant precision and specificity, this means that the number of true positives increased and the number of false positives &mdash;important for user's safety&mdash; remained bounded. Also, the covariance matrices reached acceptable metrics, confirming the posibility to tolerate noise in sound patterns.
+**Results.** The best detection rates reached in this work were 93% precision, 89% specificity, 92% recall, 92% F-score, and 80% Matthew's correlation coefficients. So we found an improvement of +12% in recall while keeping almost constant precision and specificity, this means that the number of true positives increased and the number of false positives &mdash;important for user's safety&mdash; remained bounded. Also, the covariance matrices reached acceptable metrics, confirming the posibility to tolerate noise in sound patterns.
 
 **Future work.** The score matrices (another name for the error surface) were constructed based on a fixed exponential distribution of alpha and beta parameters, it would be beneficial to apply a genetic algorithm approach to get an optimized combination of values. Also, other types of sounds, besides APS, could be processed using the covariance matrices.
 
@@ -32,6 +32,7 @@ This repository contains all the code to reproduce the results of the thesis [*R
 1. N-th harmonics prime and non-prime music kernels.
 1. Pitch contour signals from real recordings in .wav format.
 2. Alert signals by evaluating APS templates based on three types of distances (Euclidean, the proportion of tones, Mahalanobis) and three types of filtering techniques (fixed threshold, TS2Means, leaky integrator).
+1. Automatic evaluation against the manually annotated onsets in terms of precision, specificity, recall, F-score, and Matthew's correlation coefficients.
  
 Recreate the results
 ---
