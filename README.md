@@ -29,9 +29,9 @@ Package Description
 ---
 This repository contains all the code to reproduce the results of the thesis [*Recognition of accessible pedestrian signals using an adaptive approach*](http://hdl.handle.net/2238/10642). It contains a Python implementation of the proposed algorithm, including the elaboration of:
 
-1. N-th harmonics prime and non-prime music kernels
-1. Logic needed to create pitch contour signals from real recordings in .wav format.
-2. Alert signals using the APS templates by three types of distances (Euclidean, the proportion of tones, Mahalanobis) and three types of filtering techniques (fixed threshold, TS2Means, leaky integrator).
+1. N-th harmonics prime and non-prime music kernels.
+1. Pitch contour signals from real recordings in .wav format.
+2. Alert signals by evaluating APS templates based on three types of distances (Euclidean, the proportion of tones, Mahalanobis) and three types of filtering techniques (fixed threshold, TS2Means, leaky integrator).
  
 Recreate the results
 ---
