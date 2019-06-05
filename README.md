@@ -55,7 +55,7 @@ Tables 4.7-4.12, 4.20-4.22, 4.25-4.27, 4.30-4.32, 4.35-4.37, 4.40-4.42
     
     python2.7 Test/TestBruteForce.py
     
-**Disclaimer:** this test is fairly heavy to run in terms of memory usage. A machine with at least 12GB of RAM is recommended, and depending of the scenario the test can take 20 to 60 min aproximately.
+**Disclaimer:** this test is fairly heavy to run in terms of memory usage. A machine with at least 12GB of RAM is recommended, and depending of the scenario the test can take 20 to 60 min approximately.
 
 Figures 2.2, 2.3, 2.12, 2.11, 4.5-4.10, 1.18a, 1.19a, 2.6, 2.14, 2.15
     
