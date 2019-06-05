@@ -17,7 +17,7 @@ San Pedro de Montes de Oca
 
 Abstract
 ---
-**Context.** The automatic detection of accessible pedestrian signals (APS), a type of sound emitted by pedestrian traffic lights to enable passage at pedestrian crossings, has made easier the recognition of other audible tones, such as train horns, ambulance sirens, and police patrol alarms, among others. So far, previous authors have managed to recognize APSs with partial success, since the exposed designs have presented suboptimal musical recognition kernels, fixed tone thresholds unable to adapt to the changing level of street noise and separate processing of continuous and discontinuous musical contours. The best detection rates reached in old works were 91% precision, 90% specificity, 80% recall, and 83% F-score.
+**Context.** The automatic detection of accessible pedestrian signals (APS), a type of sound emitted by pedestrian traffic lights to enable passage at pedestrian crossings, has made easier the recognition of other audible tones, such as train horns, ambulance sirens, and police patrol alarms, among others. So far, previous authors have managed to recognize APS with partial success, since the exposed designs have presented suboptimal musical recognition kernels, fixed tone thresholds unable to adapt to the changing level of street noise and separate processing of continuous and discontinuous musical contours. The best detection rates reached in old works were 91% precision, 90% specificity, 80% recall, and 83% F-score.
 
 **Method**. An algorithm for the recognition of accessible pedestrian signals is presented. It consists in a three-harmonics musical recognition kernel design with a decay proportional to 1/k^2, two algorithms for the dynamic estimation of the tone threshold, that vary according to the signal-to-noise ratio (TS2Means and the leaky integrator), and the Mahalanobis distance with covariance matrices modeled according to the APS musical contours for noise robustness. 
 
@@ -55,7 +55,7 @@ Tables 4.7-4.12, 4.20-4.22, 4.25-4.27, 4.30-4.32, 4.35-4.37, 4.40-4.42
     
     python2.7 Test/TestBruteForce.py
     
-**Disclaimer:** this test is fairly heavy to run in terms of memory usage. A machine with at least 12GB of RAM is recommended, and depending of the scenario the test can take 20 to 60 min approximately.
+**Disclaimer:** this particular test is fairly heavy to run in terms of memory usage. A machine with at least 12GB of RAM is recommended, and depending of the scenario, the test can take 20 to 60 min approximately.
 
 Figures 2.2, 2.3, 2.12, 2.11, 4.5-4.10, 1.18a, 1.19a, 2.6, 2.14, 2.15
     
