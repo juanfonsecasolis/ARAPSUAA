@@ -1,0 +1,8 @@
+Metrica & Cuckoo & Highchirp & Lowchirp & General \\
+Precision	& $98 \pm 09$	 & $94 \pm 10$	 & $75 \pm 21$	 & $89 \pm 10$	 \\
+Especificidad	& $95 \pm 06$	 & $81 \pm 31$	 & $76 \pm 31$	 & $84 \pm 09$	 \\
+Sensibilidad	& $92 \pm 21$	 & $74 \pm 29$	 & $61 \pm 33$	 & $76 \pm 13$	 \\
+Medida-F	& $94 \pm 20$	 & $78 \pm 25$	 & $61 \pm 29$	 & $77 \pm 14$	 \\
+\cmidrule{2-5}
+Mcc	& $85 \pm 24$	 & $52 \pm 29$	 & $40 \pm 31$	 & $59 \pm 19$	 \\
+Diff. esc. 2	& $-4$ ($12$)	& $0$ ($-1$)	& $-1$ ($-4$)	& $-2$ ($-2$)	 \\
