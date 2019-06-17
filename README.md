@@ -27,7 +27,7 @@ Abstract
 
 Package Description
 ---
-This repository contains all the code to reproduce the results of the thesis [*Recognition of accessible pedestrian signals using an adaptive approach*](http://hdl.handle.net/2238/10642) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3246928.svg)](https://doi.org/10.5281/zenodo.3246928). It contains a Python implementation of the proposed algorithm, including the elaboration of:
+This repository contains all the code to reproduce the results of the thesis [*Recognition of accessible pedestrian signals using an adaptive approach*](http://hdl.handle.net/2238/10642). It contains a Python implementation of the proposed algorithm, including the elaboration of:
 
 1. N-th harmonics prime and non-prime music kernels.
 1. Pitch contour signals from real recordings in .wav format.
@@ -132,7 +132,7 @@ You can cite this work by using the following Bibtex entry:
 
 Alternative repository
 ---
-This repository can alernatively be found on [![DOI](https://zenodo.org/badge/189270078.svg)](https://zenodo.org/badge/latestdoi/189270078).
+This repository can alternatively be found on [![DOI](https://zenodo.org/badge/189270078.svg)](https://zenodo.org/badge/latestdoi/189270078). And the thesis document is also on [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3246928.svg)](https://doi.org/10.5281/zenodo.3246928).
 
 License
 ---
