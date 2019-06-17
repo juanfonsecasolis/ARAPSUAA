@@ -130,6 +130,10 @@ You can cite this work by using the following Bibtex entry:
 }
 ```
 
+Alternative repository
+---
+This repository can alernatively be found on [![DOI](https://zenodo.org/badge/189270078.svg)](https://zenodo.org/badge/latestdoi/189270078).
+
 License
 ---
 Copyright (c) 2018, Juan M. Fonseca-Solís  
