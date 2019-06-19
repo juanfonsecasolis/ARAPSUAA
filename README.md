@@ -38,7 +38,7 @@ Recreate the results
 ---
 The algorithm implementation works by default with `python 2.7`. For data pre-processing, we have to use libraries such as `numpy`, `scipy`, `pyaudio`, `oc2python`, and `peakutils`. 
 
-Also, make sure that the recordings folder (that can be cloned from [here](https://github.com/juanfonsecasolis/grabaciones-semaforos)) is named `grabaciones-curadas`, and that it is placed at the same level of this repository. 
+Also, make sure that the recordings folder (that can be cloned from [here](https://github.com/juanfonsecasolis/grabaciones-semaforos)) is named `grabaciones-semaforos`, and that it is placed at the same level of this repository. 
 
 Figures 1.17, 1.18b, 1.19b, 2.1, 2.17, 3.2, 3.3, 3.13, 3.19, 3.20
     
