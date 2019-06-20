@@ -134,6 +134,10 @@ If you need DOI identifiers, you can also use the following ones:
 * Repository: [![DOI](https://zenodo.org/badge/189270078.svg)](https://zenodo.org/badge/latestdoi/189270078)
 * Thesis document: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3246928.svg)](https://doi.org/10.5281/zenodo.3246928)
 
+Disclaimer
+---
+This work hasn't been supported by any grant or other financial help by any public or private organization. I have made public this work because I believe that reproducibility is a condition to prove that real progress in science has been made. Also, because I wanted to encourage other researchers of low-income-countries with Santiago Ramon y Cajal words: "Every man can, if he so desires, become the sculptor of his own brain", and "for the scientific work, the resources are almost nothing and man is almost everything".
+
 License
 ---
 Copyright (c) 2018, Juan M. Fonseca-Solís  
