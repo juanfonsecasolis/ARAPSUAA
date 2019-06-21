@@ -136,7 +136,7 @@ If you need DOI identifiers, you can also use the following ones:
 
 Disclaimer
 ---
-This work hasn not been supported by any grant, scholarship or other financial help provided by any public or private organization. I have made public this work because I believe that reproducibility is a condition to prove that real progress in science has been made. Also, because I wanted to encourage other researchers of low-income-countries to continue doing independent research even if no funding is available. 
+No grant, scholarship or other financial help provided by any public or private organization supported this work. I have made public this code because I believe that reproducibility provides evidence that real progress in science has been made. Also, because I wanted to encourage other researchers on low-income-countries to continue doing independent research even if no funds are available to let them work full-time in the academia. 
 
 _"In scientic work, means are virtually nothing whereas the person is almost everything."_ - Santiago Ramón y Cajal
 
