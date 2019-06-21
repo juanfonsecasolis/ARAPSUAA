@@ -136,7 +136,9 @@ If you need DOI identifiers, you can also use the following ones:
 
 Disclaimer
 ---
-This work hasn't been supported by any grant or other financial help by any public or private organization. I have made public this work because I believe that reproducibility is a condition to prove that real progress in science has been made. Also, because I wanted to encourage other researchers of low-income-countries to continue doing independent research even if no funding is available. As Santiago Ramon y Cajal said in his book "Advice to a young researcher": "Every man can, if he so desires, become the sculptor of his own brain", and "for the scientific work, the resources are almost nothing and man is almost everything".
+This work hasn't been supported by any grant or other financial help by any public or private organization. I have made public this work because I believe that reproducibility is a condition to prove that real progress in science has been made. Also, because I wanted to encourage other researchers of low-income-countries to continue doing independent research even if no funding is available. 
+
+_"In scientic work, means are virtually nothing whereas the person is almost everything."_ - Santiago Ramón y Cajal
 
 License
 ---
