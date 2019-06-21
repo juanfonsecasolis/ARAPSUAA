@@ -137,7 +137,7 @@ If you need DOI identifiers, you can use the following ones:
 
 Disclaimer
 ---
-The code and documentation offered here differ from the one created during the project B6146 or RASP (https://vinv.ucr.ac.cr/sigpro/web/projects/B6146) for the University of Costa Rica. Therefore, no grant, scholarship or other financial help provided by any public or private organization supported the elaboration of ARAPSUAA. I have made public the code and documentation because I believe that reproducibility shows that real progress in science has been made. Also, because I want to encourage other researchers on low-income-countries (LIC) to continue doing independent research even if no funds are available to work full-time in the academia.
+The code and documentation offered here differ from the ones created during the execution of the project B6146 or RASP (https://vinv.ucr.ac.cr/sigpro/web/projects/B6146) for the University of Costa Rica. Therefore, no grant, scholarship or other financial help provided by any public or private organization supported the elaboration of ARAPSUAA. I have made public the code and documentation because I believe that reproducibility shows that real progress in science has been made. Also, because I want to encourage other researchers on low-income-countries (LIC) to continue doing independent research even if no funds are available to work full-time in the academia.
 
 _"In scientic work, means are virtually nothing whereas the person is almost everything."_ - Santiago Ramón y Cajal
 
