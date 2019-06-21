@@ -69,6 +69,8 @@ Alternatively, you can build all figures at once executing `./run.sh`. The figur
 * /tmp/outputDataAPS/covarianceMatrices 
 * /tmp/outputDataAPS/snr
 
+**Note:** if you are using PyCharm to run the code as a project then remember to mark the /src folder as the source folder, to avoid dependencies errors.
+
 Data used in the paper
 ---
 A total of 79 recordings were collected from 11 different Novax DS100 units in the Costa Rican great metropolitan area (GAM), consisting in: 
