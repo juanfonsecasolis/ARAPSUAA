@@ -136,7 +136,7 @@ If you need DOI identifiers, you can also use the following ones:
 
 Disclaimer
 ---
-No grant, scholarship or other financial help provided by any public or private organization supported this work. I have made public this code because I believe that reproducibility provides evidence that real progress in science has been made. Also, because I wanted to encourage other researchers on low-income-countries to continue doing independent research even if no funds are available to let them work full-time in the academia. 
+No grant, scholarship or other financial help provided by any public or private organization supported this work. I have made public the code and documentation of ARAPSUAA because I believe that reproducibility provides evidence that real progress in science has been made. Also, because I wanted to encourage other researchers on low-income-countries to continue doing independent research even if no funds are available to let them work full-time in the academia. 
 
 _"In scientic work, means are virtually nothing whereas the person is almost everything."_ - Santiago Ramón y Cajal
 
