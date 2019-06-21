@@ -69,7 +69,7 @@ Alternatively, you can build all figures at once executing `./run.sh`. The figur
 * /tmp/outputDataAPS/covarianceMatrices 
 * /tmp/outputDataAPS/snr
 
-**Note:** if you are using PyCharm to run the code as a project then remember to mark the /src folder as the source folder, to avoid dependencies errors.
+**Note:** if you are using PyCharm to run the code as a project then remember to mark the /src folder as the source folder, to avoid dependency errors.
 
 Data used in the paper
 ---
