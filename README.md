@@ -1,6 +1,6 @@
 ARAPSUAA: Automatic recognition of accessible pedestrian signals using an adaptive approach    
 ===========================================================================================
-Master thesis
+Code for master thesis [*Recognition of accessible pedestrian signals using an adaptive approach*](http://hdl.handle.net/2238/10642).
 
 Author
 -------
