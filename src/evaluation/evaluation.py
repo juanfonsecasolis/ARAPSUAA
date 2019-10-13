@@ -39,14 +39,14 @@ def calculateMetricsForAlertSignal(aSignal, annotations, fsp, T, useProposedEval
 
     # define set B (windows between the first and the last non zero score)
     if (useProposedEvaluation):
-        # aplicar evaluación propuesta
+        # aplicar evaluacion propuesta
         B = set([])
         for n in range(0, N):
             if aSignal[n] != 0:
                 B = B.union(set(range(n, n + nT)))
         A = set(range(iA1, iAN + nT))
     else:
-        # aplicar evaluación original
+        # aplicar evaluacion original
         iB1 = 0
         iBN = N - 1
         while iB1 < N and aSignal[iB1] == 0:

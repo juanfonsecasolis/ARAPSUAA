@@ -243,7 +243,7 @@ def calculateAlertSignalByApsTypeAux(filepath, apsType, NFFT, fRange, df, kernel
     # apply a sliding euclidean modified distance or count the no. of correspondences?
     nC = len(c)
     nO = len(o)
-    a = [0.0] * nC  # señal de alerta
+    a = [0.0] * nC  # senial de alerta
     for n in range(0, nC - nO):
         cAct = np.asarray(c[n:n + nO])
         if (distanceType == 'l2mod'):
@@ -288,7 +288,7 @@ def run(sceneryID, outImgFolderPath=None):
 
     NFFT = 256
 
-    # iteramos a través de los tipos de APS y generamos las señales deseadas
+    # iteramos a traves de los tipos de APS y generamos las seniales deseadas
     for apsType in ['cuckoo', 'highchirp', 'lowchirp']:
 
         # calculate the alert signal and apply beta after

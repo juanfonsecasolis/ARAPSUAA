@@ -156,7 +156,7 @@ def run(apsType, covarianceMatrixFolderPath=None, storeFullMatrix=False, verbose
     S = calculateCovarianceMatrixFromContours(contoursInputFolder, False)
 
     if verbose:
-        print('Dimensión matriz cov: %i' % len(S[:, 0]))
+        print('Dimension matriz cov: %i' % len(S[:, 0]))
         print('Rango matriz cov.: %i' % np.linalg.matrix_rank(S))
 
     title = 'Cov. matrix\n%s' % (contoursInputFolder)

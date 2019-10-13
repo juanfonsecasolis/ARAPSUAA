@@ -228,7 +228,7 @@ scenarioParameters = {
         'distances': {'cuckoo': 'proporcion', 'highchirp': 'l2mod', 'lowchirp': 'l2mod'},
         'thresholdMethod': {'cuckoo': 'fixed', 'highchirp': 'fixed', 'lowchirp': 'fixed'}
     },
-    'scenery2': {  # igual a escenario 1, lo que cambia más adelante es el método de evaluación
+    'scenery2': {  # igual a escenario 1, lo que cambia mas adelante es el metodo de evaluacion
         'kernels': {'cuckoo': 'cuckoo-org', 'highchirp': 'highchirp-org', 'lowchirp': 'lowchirp-org'},
         'banks': {'cuckoo': 'cuckoo-org', 'highchirp': 'highchirp-org', 'lowchirp': 'lowchirp-org'},
         'distances': {'cuckoo': 'proporcion', 'highchirp': 'l2mod', 'lowchirp': 'l2mod'},

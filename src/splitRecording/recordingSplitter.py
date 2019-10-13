@@ -112,9 +112,9 @@ def findApsTypeFromFilename(filename):
 	 Formato de nombre: TDsem#LYYYYMMDDHHMMSS
 	 - T: tipo de sonido, ruido (r) o sonido APS (s)
 	 - D: dispositivo ACE (a), DUOS (d) o LG  (l)
-	 - sem#: identificador hexadecimal del semáforo (esto es lo que interesa)
-	 - L: grabación tomada en la acera del APS (s) o al contrario (o)
-	 - YYYYMMDDHHMMSS: formato de hora para año, mes, día, hora, minutos y segundos
+	 - sem#: identificador hexadecimal del semaforo (esto es lo que interesa)
+	 - L: grabacion tomada en la acera del APS (s) o al contrario (o)
+	 - YYYYMMDDHHMMSS: formato de hora para anio, mes, dia, hora, minutos y segundos
 	'''
     ID = int(filename[5], 16)
     cc = 'cuckoo'

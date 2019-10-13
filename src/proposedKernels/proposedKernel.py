@@ -37,7 +37,7 @@ def isPrime(x):
 
 
 def getPrimeKernel(f0, A, fs, N, decayP, amplitudeLimit):
-    # nucleo propuesto con armónicas PRIMAS
+    # nucleo propuesto con armonicas PRIMAS
 
     k = np.zeros([N, 1])
     fmax = fs / 2.0
@@ -49,8 +49,8 @@ def getPrimeKernel(f0, A, fs, N, decayP, amplitudeLimit):
         elif (0.75 < fNorm and fNorm < A + 0.25) and (isPrime(np.round(fNorm)) or 0.25 <= np.abs(round(fNorm) - fNorm)):
             k[n] = np.cos(2 * np.pi * 1 / f0 * f)
 
-        # 0.9 para alcanzar un error de -0.013202 con 5 armónicas y
-        # conservar el peso 0.5 en la primer subarmónica
+        # 0.9 para alcanzar un error de -0.013202 con 5 armonicas y
+        # conservar el peso 0.5 en la primer subarmonica
         decaimiento = fNorm ** -decayP if 0 < fNorm else 1
         k[n] *= decaimiento
 
@@ -58,7 +58,7 @@ def getPrimeKernel(f0, A, fs, N, decayP, amplitudeLimit):
 
 
 def getNonPrimeKernel(f0, A, fs, N, decayP, amplitudeLimit):
-    # nucleo propuesto con todas las armónicas
+    # nucleo propuesto con todas las armonicas
 
     k = np.zeros([N, 1])
     fmax = fs / 2.0
@@ -70,8 +70,8 @@ def getNonPrimeKernel(f0, A, fs, N, decayP, amplitudeLimit):
         elif (0.75 < fNorm and fNorm < A + 0.25):
             k[n] = np.cos(2 * np.pi * 1 / f0 * f)
 
-        # 0.9 para alcanzar un error de -0.013202 con 5 armónicas y
-        # conservar el peso 0.5 en la primer subarmónica
+        # 0.9 para alcanzar un error de -0.013202 con 5 armonicas y
+        # conservar el peso 0.5 en la primer subarmonica
         decaimiento = fNorm ** -decayP if 0 < fNorm else 1
         k[n] *= decaimiento
 

@@ -32,8 +32,13 @@ This repository contains all the code to reproduce the results of the thesis [*R
 
 1. N-th harmonics prime and non-prime music kernels.
 1. Pitch contour signals from real recordings in .wav format.
-2. Alert signals by evaluating APS templates based on three types of distances (Euclidean, the proportion of tones, Mahalanobis) and three types of filtering techniques (fixed threshold, TS2Means, leaky integrator).
+1. Alert signals by evaluating APS templates based on three types of distances (Euclidean, the proportion of tones, Mahalanobis) and three types of filtering techniques (fixed threshold, TS2Means, leaky integrator).
+1. Covariance matrices plot for the three types of sounds (figures below)
 1. Automatic evaluation against the manually annotated onsets in terms of precision, specificity, recall, F-score, and Matthew's correlation coefficients.
+ 
+<img width="33%" src="img/cov-full-matrix-cuckoo.png">
+<img width="33%" src="img/cov-full-matrix-highchirp.png">
+<img width="33%" src="img/cov-full-matrix-lowchirp.png">
  
 Recreate the results
 ---

@@ -67,7 +67,7 @@ def computeAlertSignalBatch(annotationPaths, recordingsFolder, outputFolder, sce
             print('Skipping %s type' % apsType)
             continue
 
-        # calculamos la señal de alerta
+        # calculamos la senial de alerta
         [_, _, _, _, ap] = calculateAlertSignalByApsType(sceneryID, apsType, NFFT,
                                                               filepath, alphaLambdaOverride, betaOverride, verbose,
                                                               nHarmOverride)
