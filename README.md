@@ -146,13 +146,13 @@ If you need DOI identifiers, you can use the following ones:
 
 Disclaimer
 ---
-ARAPSUAA was based on the theory published publicly by the project [B6146](https://vinv.ucr.ac.cr/sigpro/web/projects/B6146) (also known as RASP) of the University of Costa Rica and the new findings described in the abstract: unificiation of the treatment for continuous and non-continuous frequency contours, and the adaptation of the tone threshold to the SNR. The code was completely written in a different language and adapted to serve as a scientific library. No grant, scholarship or other financial help provided by any public or private organization supported the elaboration of ARAPSUAA. I have made public the code because I believe that reproducibility is a condition for science, moreover, because I want to encourage researchers living in low-income-countries (LIC) to do independent research when working full-time in the academia is not possible.
+ARAPSUAA was based on the theory published publicly by the project [B6146](https://vinv.ucr.ac.cr/sigpro/web/projects/B6146) (also known as RASP) of the University of Costa Rica and the new findings described in the abstract: unification of the treatment for continuous and non-continuous frequency contours, and the automatic adaptation of the tone threshold to the SNR. The code was completely written in a different language and adapted to serve as a scientific library. No grant, scholarship or other financial help provided by any public or private organization supported the elaboration of ARAPSUAA. I have made public the code because I believe that reproducibility is a condition for science, moreover, because I want to encourage researchers living in low-income-countries (LIC) to do independent research when working full-time in the academia is not possible.
 
 _"In scientic work, means are virtually nothing whereas the person is almost everything."_ - Santiago Ramón y Cajal
 
 License
 ---
 Copyright (c) 2018, Juan M. Fonseca-Solís  
-The source code is released under the [GPL](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
+The source code is released under the [GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
 
 
