@@ -36,9 +36,11 @@ This repository contains all the code to reproduce the results of the thesis [*R
 1. Covariance matrices plot for the three types of sounds (figures below)
 1. Automatic evaluation against the manually annotated onsets in terms of precision, specificity, recall, F-score, and Matthew's correlation coefficients.
  
+<div>
 <img width="33%" src="img/cov-full-matrix-cuckoo.png">
 <img width="33%" src="img/cov-full-matrix-highchirp.png">
 <img width="33%" src="img/cov-full-matrix-lowchirp.png">
+</div> 
  
 Recreate the results
 ---
