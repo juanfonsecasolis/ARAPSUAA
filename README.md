@@ -141,7 +141,7 @@ You can cite this work by using the following Bibtex entry:
 ```
 
 If you need DOI identifiers, you can use the following ones:
-* Repository: [![DOI](https://zenodo.org/badge/189270078.svg)](https://zenodo.org/badge/latestdoi/189270078)
+* Repository: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3511746.svg)](https://doi.org/10.5281/zenodo.3511746)
 * Thesis document: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3246928.svg)](https://doi.org/10.5281/zenodo.3246928)
 
 Disclaimer
