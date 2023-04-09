@@ -144,7 +144,7 @@ If you need DOI identifiers, you can use the following ones:
 
 Disclaimer
 ---
-The code of ARAPSUAA was written in Python and its purpose is to serve as a scientific library. Although no grant or scholarship was obtained to create ARAPSUAA, is is based on the theory publicly published by the University of Costa Rica for the project [B6146](https://vinv.ucr.ac.cr/sigpro/web/projects/B6146), whose code was written privately in Java and released in the Android application called _Reconocimiento Acústico de Señales Peatonales_ (RASP). I have made public the code of ARAPSSUAA for the sake of reproducible research, moreover, because I want to encourage researchers living in low-income-countries (LIC) to do independent research when working full-time in the academia is not possible.
+The code of ARAPSUAA was written in Python to serve as a scientific library. Although no grant or scholarship was obtained to create ARAPSUAA, is is based on the theory publicly published by the University of Costa Rica for the project [B6146](https://vinv.ucr.ac.cr/sigpro/web/projects/B6146), whose code was written privately in Java and released in the Android application called _Reconocimiento Acústico de Señales Peatonales_ (RASP). I have made public the code of ARAPSSUAA for the sake of reproducible research, moreover, because I want to encourage researchers living in low-income-countries (LIC) to do independent research when working full-time in the academia is not possible.
 
 _"Too little science leads away from God, while too much science leads back to Him."_ - Louis Pasteur
 
