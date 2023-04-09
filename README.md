@@ -1,4 +1,4 @@
-ARAPSUAA: Automatic recognition of accessible pedestrian signals using an adaptive approach    
+Automatic recognition of accessible pedestrian signals using an adaptive approach (ARAPSUAA)
 ===========================================================================================
 Code for master thesis [*Recognition of accessible pedestrian signals using an adaptive approach*](http://hdl.handle.net/2238/10642).
 
@@ -146,9 +146,9 @@ If you need DOI identifiers, you can use the following ones:
 
 Disclaimer
 ---
-ARAPSUAA was based on the theory published publicly by the project [B6146](https://vinv.ucr.ac.cr/sigpro/web/projects/B6146) (also known as RASP) of the University of Costa Rica and the new findings described in the abstract: unification of the treatment for continuous and non-continuous frequency contours, and the automatic adaptation of the tone threshold to the SNR. The code was completely written in a different language and adapted to serve as a scientific library. No grant, scholarship or other financial help provided by any public or private organization supported the elaboration of ARAPSUAA. I have made public the code because I believe that reproducibility is a condition for science, moreover, because I want to encourage researchers living in low-income-countries (LIC) to do independent research when working full-time in the academia is not possible.
+The code of ARAPSUAA was written in Python and its purpose is to serve as a scientific library. Although no grant or scholarship was obtained to create ARAPSUAA, it was developed based on the theory published publicly by the University of Costa Rica for the project [B6146](https://vinv.ucr.ac.cr/sigpro/web/projects/B6146), whose Android application is known as _Reconocimiento Acústico de Señales Peatonales_ (RASP). The code of RASP was written in JAVA and is private. I have made public the code for the sake of reproducible research, moreover, because I want to encourage researchers living in low-income-countries (LIC) to do independent research when working full-time in the academia is not possible.
 
-_"In scientic work, means are virtually nothing whereas the person is almost everything."_ - Santiago Ramón y Cajal
+_"Too little science leads away from God, while too much science leads back to Him."_ - Louis Pasteur
 
 License
 ---
